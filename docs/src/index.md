@@ -527,7 +527,7 @@ To reference columns with more complicated expressions, you must wrap column ref
 
 ## Constructing multi-column arguments and `src => fun => dest` calls using `$`
 
-If an argument is entirely wrapped in `$()`, the result bypasses the anonymous function creation of DataFramesMeta.jl and is passed to the underling DataFrames.jl function directly. Importantly, this allows for multi-column selection and passing `src => fun => dest` calls from the DataFrames.jl "mini-language" directly.
+If an argument is entirely wrapped in `$()`, the result bypasses the anonymous function creation of DataFramesMeta.jl and is passed to the underlying DataFrames.jl function directly. Importantly, this allows for multi-column selection and passing `src => fun => dest` calls from the DataFrames.jl "mini-language" directly.
 
 ### Multi-argument selectors 
 
